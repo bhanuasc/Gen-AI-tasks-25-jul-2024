@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Discover my projects and skills</p>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="./images/profile.png" alt="Profile Picture">
+            <p>Hello! I'm Bhanu prasad, a web developer with a passion for creating beautiful and functional websites.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-front">
+                    <img src="./images/p1.png" alt="Project 1">
+                    <h3>Project 1</h3>
+                </div>
+                <div class="project-back">
+                    <h3>Project 1</h3>
+                    <p>My Portfolio site.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-front">
+                    <img src="./images/p2.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                </div>
+                <div class="project-back">
+                    <h3>Project 2</h3>
+                    <p>Color picker for my clock.</p>
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
